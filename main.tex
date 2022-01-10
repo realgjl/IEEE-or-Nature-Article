@@ -1,0 +1,81 @@
+\documentclass[11pt]{article} % For LaTeX2e
+\usepackage{times}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+%%% Set hyper link colour: %%%
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=magenta,
+    linkcolor=.,
+    urlcolor=blue
+}
+
+\addtolength{\textwidth}{2cm}
+%\addtolength{\textwidth}{1cm}
+\addtolength{\textheight}{2cm}
+%\addtolength{\textheight}{1cm}
+\addtolength{\topmargin}{-1cm}
+\addtolength{\oddsidemargin}{-1cm}
+\addtolength{\evensidemargin}{-1cm}
+
+\title{Machine Behaviour and Intelligence}
+
+\author{Target: 6000 words, 6 main figures/tables and around 50 citations (10 pages total)}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Deep learning is currently the most exciting area of machine learning
+because it has dramatically improved the state-of-the-art in speech
+recognition, object recognition and object detection.  It is also being
+remarkably successful at many other tasks such as language modeling
+(predicting the next word in a sentence) and predicting the activity of
+potential drug molecules.  In addition to its impressive successes for
+perceptual tasks, deep learning is currently on the verge of beating the
+state-of-the-art in Machine Translation and is likely to become the method
+of choice for this task over the next few years.
+There is widespread interest in deep learning because it is so good at
+extracting structure from very large datasets and it appears to be very
+widely applicable. For example, it was named as one of the top ten new
+technologies of 2013 by MIT Technology Review. This review explains some
+of the main underlying concepts and current applications of deep learning,
+and closes with perspectives for future research in this area.
+\end{abstract}
+
+{\em 
+We plan to organize this review chronologically, but with forward looking
+ comments. We will start with the excitement over the backpropagation
+ learning algorithm for multilayer neural networks in the 1980's and
+ explain why these networks did not live up to the very high expectations
+ that people had for them.  Given our current knowledge, the real reasons
+ for the disappointments of the 1990's are now clear: people radically
+ underestimated the amount of data and the amount of computation that were
+ required to demonstrate the power of this type of learning algorithm.
+}
+
+\section{Introduction}
+Machine Behaviour~\cite{rahwan2019machine}
+
+\section{Results}
+
+\section{Discussion}
+
+\section{Methods}
+
+% -- Reference --
+\bibliography{references.bib}
+%\bibliographystyle{ieeetr.bst} % IEEE reference style, not a citing style.
+\bibliographystyle{naturemag.bst} % Nature reference style
+
+\section{Author contributions statement}
+
+\section{Additional information}
+
+\end{document}
